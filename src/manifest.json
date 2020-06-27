@@ -2,8 +2,11 @@
   "manifest_version": 2,
 
   "name": "Base 16 Dark - WhatsApp Web",
-  "version": "1.0",
+  "version": "0.1.0",
   "description": "Base 16 Dark - WhatsApp Web",
+  "icons": {
+    "512": "images/dark_icon.png"
+  },
   "content_scripts": [
     {
       "css": ["styles.css"],
