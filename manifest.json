@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Base 16 Dark - WhatsApp Web",
+  "version": "0.1.0",
+  "description": "Base 16 Dark - WhatsApp Web",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "matches": ["https://web.whatsapp.com/*"]
+    }
+  ]
+}
