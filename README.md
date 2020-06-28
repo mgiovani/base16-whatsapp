@@ -7,3 +7,9 @@ This theme is a mix of the [Base16-Default-Dark scheme](https://github.com/chris
 
 # Before / After
 ![Before/After](https://i.imgur.com/MIZRdkj.png)
+
+# Install
+- Download the extension as a .zip on [this page](https://github.com/mgiovani/base16-whatsapp-web/releases)
+- Go to the extensions page on your Edge (edge://extensions/) or Chrome (chrome://extensions/)
+- Drag and drop the .zip file here
+- Refresh your Whatsapp page
