@@ -2,13 +2,13 @@
   --accent: #ab4642 !important;
   --background-color: #181818 !important;
   --background-blur: 0px !important;
-  --transparency-color: rgba(0, 0, 0, 0.15) !important;
+  --transparency-color: rgba(0, 0, 0, 0.35) !important;
   --menu-background: #282828 !important;
   --rgb: 255, 255, 255 !important;
   --text: #e8e8e8 !important;
   --link: #7cafc2 !important;
-  --secondary-opacity: 0.65 !important;
-  --doodles-opacity: 0.4 !important;
+  --secondary-opacity: 0.7 !important;
+  --doodles-opacity: 0.15 !important;
   --beige: var(--accent) !important;
   --beige-rgb: var(--rgb) !important;
   --black: transparent !important;
@@ -179,10 +179,10 @@
   --chat-marker-border-rgb: transparent !important;
   --chatlist-icon: var(--text) !important;
   --chatlist-icon-rgb: transparent !important;
-  --checkbox-background: transparent !important;
-  --checkbox-background-rgb: transparent !important;
-  --checkbox-mark: transparent !important;
-  --checkbox-mark-rgb: transparent !important;
+  --checkbox-background: var(--background-color) !important;
+  --checkbox-background-rgb: var(--rgb) !important;
+  --checkbox-mark: var(--accent) !important;
+  --checkbox-mark-rgb: var(--accent) !important;
   --compose-background: var(--background-color) !important;
   --compose-background-rgb: transparent !important;
   --compose-background-focused: transparent !important;
@@ -290,8 +290,8 @@
   --message-placeholder-icon-rgb: transparent !important;
   --message-primary: var(--text) !important;
   --message-primary-rgb: var(--rgb) !important;
-  --message-selection-highlight: transparent !important;
-  --message-selection-highlight-rgb: transparent !important;
+  --message-selection-highlight: var(--transparency-color) !important;
+  --message-selection-highlight-rgb: var(--transparency-color) !important;
   --modal-backdrop: var(--transparency-color) !important;
   --modal-backdrop-rgb: transparent !important;
   --modal-backdrop-solid: var(--transparency-color) !important;
@@ -310,7 +310,7 @@
   --notification-e2e-text-rgb: transparent !important;
   --notification-text: var(--text) !important;
   --notification-text-rgb: transparent !important;
-  --outgoing-background: rgba(255, 255, 255, 0.04) !important;
+  --outgoing-background: rgba(255, 255, 255, 0.03) !important;
   --outgoing-background-rgb: transparent !important;
   --outgoing-background-deeper: var(--incoming-background) !important;
   --outgoing-background-deeper-rgb: transparent !important;
@@ -366,7 +366,7 @@
   --product-thumb-background-rgb: transparent !important;
   --product-thumb-background-deeper: transparent !important;
   --product-thumb-background-deeper-rgb: transparent !important;
-  --progress-background: #181818 !important;
+  --progress-background: #000 !important;
   --progress-background-rgb: 0, 0, 0 !important;
   --progress-primary: var(--accent) !important;
   --progress-primary-rgb: var(--rgb) !important;
@@ -488,10 +488,6 @@ html[dir] ._2T-91 {
   background-color: transparent !important;
 }
 
-html[dir] ._1DzHI {
-  display: none;
-}
-
 html[dir] .app,
 body,
 html[dir='ltr'] .message-in .tail-container,
@@ -535,6 +531,91 @@ progress[value]::-webkit-progress-value {
 
 progress[value]::-moz-progress-bar {
   background-color: var(--accent);
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+input,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+select,
+small,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
 }
 
 html,
