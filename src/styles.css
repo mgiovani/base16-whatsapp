@@ -366,7 +366,7 @@
   --product-thumb-background-rgb: transparent !important;
   --product-thumb-background-deeper: transparent !important;
   --product-thumb-background-deeper-rgb: transparent !important;
-  --progress-background: #000 !important;
+  --progress-background: #181818 !important;
   --progress-background-rgb: 0, 0, 0 !important;
   --progress-primary: var(--accent) !important;
   --progress-primary-rgb: var(--rgb) !important;
@@ -499,6 +499,10 @@ html[dir='ltr'] .message-out .tail-container,
 html[dir='ltr'] .message-out .tail-container.highlight,
 html[dir='ltr'] .message-out .tail-override-left .tail-container {
   background-image: none !important;
+}
+
+html[dir] .landing-main {
+  background-color: #484848;
 }
 
 .ZScUN._3jw2f {
