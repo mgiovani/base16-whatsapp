@@ -129,7 +129,7 @@
   --bubble-meta-icon-rgb: transparent !important;
   --butterbar-battery-background: var(--incoming-background) !important;
   --butterbar-battery-background-rgb: transparent !important;
-  --butterbar-battery-primary: transparent !important;
+  --butterbar-battery-primary: var(--accent) !important;
   --butterbar-battery-primary-rgb: transparent !important;
   --butterbar-battery-secondary: var(--text) !important;
   --butterbar-battery-secondary-rgb: transparent !important;
@@ -187,6 +187,8 @@
   --compose-background-rgb: transparent !important;
   --compose-background-focused: transparent !important;
   --compose-background-focused-rgb: transparent !important;
+  --compose-panel-background-hover: var(--menu-background) !important;
+  --compose-panel-background-hover-rgb: transparent !important;
   --compose-border: transparent !important;
   --compose-border-rgb: transparent !important;
   --compose-border-focused: transparent !important;
@@ -388,6 +390,8 @@
   --quick-action-button-background-rgb: transparent !important;
   --rich-text-panel-background: transparent !important;
   --rich-text-panel-background-rgb: transparent !important;
+  --search-container-background: transparent !important;
+  --search-container-background-rgb: transparent !important;
   --search-input-background: transparent !important;
   --search-input-background-rgb: transparent !important;
   --secondary: var(--text) !important;
