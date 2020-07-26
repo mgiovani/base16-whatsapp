@@ -1,4 +1,5 @@
 # Base 16 Whatsapp
+**Disclaimer**: This project is no longer maintained after official release of Whatsapp's Dark Mode.  
 A Whatsapp theme inspired by the Dark Base 16 colors.  
 See the [Base16 repository](https://github.com/chriskempson/base16) for more information.  
 
@@ -9,4 +10,4 @@ This theme is a mix of the [Base16-Default-Dark scheme](https://github.com/chris
 ![Before/After](https://i.imgur.com/s14iOT9.png)
 
 # Whatsapp App Before / After
-![Before/After](https://i.imgur.com/IJIq48f.png)
+![Before/After](https://i.imgur.com/9fkysd1.png)
